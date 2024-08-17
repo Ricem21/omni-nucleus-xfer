@@ -1,0 +1,9 @@
+services:
+  onx:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: onx
+    container_name: onx
+
+    restart: "no"
