@@ -26,6 +26,9 @@ RUN rm google-chrome-stable_current_amd64.deb
 COPY ./omni-client /opt/omni-client
 COPY ./omni-other /opt/omni-other
 
+#
+#  Add the compressed release of the Omniverse connect SDK sample
+#  Then uncompress, and build the SDK
 WORKDIR /opt/omni-client
 RUN tar -xvf connect-samples-205.0.0.tar.gz
 WORKDIR /opt/omni-client/connect-samples-205.0.0
