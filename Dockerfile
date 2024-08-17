@@ -24,7 +24,6 @@ RUN rm google-chrome-stable_current_amd64.deb
 #RUN pip install -r requirements.txt
 
 COPY ./omni-client /opt/omni-client
-COPY ./omni-other /opt/omni-other
 
 #
 #  Add the compressed release of the Omniverse connect SDK sample
