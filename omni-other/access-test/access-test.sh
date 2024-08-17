@@ -3,7 +3,7 @@
 set -e
 
 
-export CLIENT_LIB_SDK_DIR=/opt/omni-client/connect-samples-205.0.0 
+export SCRIPT_DIR=/opt/omni-client/connect-samples-205.0.0 
 
 export USD_LIB_DIR=${SCRIPT_DIR}/_build/linux-x86_64/release
 export PYTHON=${SCRIPT_DIR}/_build/target-deps/python/python
