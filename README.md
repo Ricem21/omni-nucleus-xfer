@@ -42,7 +42,8 @@ access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 One can use the ```-l``` option to output versbose logs. These can help identify issues with connectivity.
 ```
 root@09dc51bd8a82:/app/access-test# ./access-test.sh 192.168.1.17 Projects/HW1 -u omniverse -p 123456 -l
-
+```
+```
 Main core LogLevel.DEBUG Registering factory for 'http:'
 Main core LogLevel.DEBUG Registering factory for 'https:'
 Main core LogLevel.DEBUG Registering factory for 'file:'
