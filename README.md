@@ -12,6 +12,11 @@ $ docker build -t onx .
 $ docker compose up -d
 ```
 
+## Stop
+```
+docker compose down
+```
+
 ### Usage
 The basic tests that are included will upload two files, one that is below the LFT limit and one above
 ```
@@ -90,9 +95,6 @@ Tick idl LogLevel.DEBUG 13: send id=1 DiscoverySearch.find 0x75a824034e40
 
 
 
-```
-docker compose down
-```
 
 
 
