@@ -4,6 +4,9 @@
 
 ```
 docker build -t onx .
+```
+
+```
 docker compose up -d
 ```
 
