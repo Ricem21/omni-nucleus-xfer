@@ -31,6 +31,8 @@ If one wants to upload a bigger file (to debug some issues with very large files
 ```
 root@09dc51bd8a82:/app/access-test# dd if=/dev/urandom of=./usd-files/nat-file-02.usd  bs=4G count=1 iflag=fullblock
 root@09dc51bd8a82:/app/access-test# ./access-test.sh 192.168.1.17 Projects/HW1 -u omniverse -p 123456
+```
+```
 access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 [access-test]: Connection status to omniverse://192.168.1.17 is ConnectionStatus.CONNECTING
 [access-test]: Authenticating to omniverse://192.168.1.17
