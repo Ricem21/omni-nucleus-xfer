@@ -50,7 +50,7 @@ access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 ---
 **NOTE**
 
-It works with almost all markdown flavours (the below blank line matters).
+In all of these examples the raw IP of th enucleus server is used as the target. One can use FQDN if needed. In addition, the Nucleus server can be SSL enabled. At the moment SSO configured Nucleus servers are not support by this infrastrture.
 
 ---
 
