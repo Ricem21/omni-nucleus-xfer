@@ -35,5 +35,6 @@ RUN ./build.sh
 
 
 COPY ./app /app
+WORKDIR /app/access-test
 
 ENTRYPOINT ["/app/startup.sh"]
