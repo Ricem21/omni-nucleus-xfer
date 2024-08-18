@@ -47,6 +47,13 @@ access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 [access-test]: copy_file     : result: OK                   omniverse://192.168.1.17/Projects/HW1/nat-file-02.usd 
 [access-test]: Connection status to omniverse://192.168.1.17 is ConnectionStatus.SIGNED_OUT
 ```
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+
 
 One can use the ```-l``` option to output versbose logs. These can help identify issues with connectivity.
 ```
