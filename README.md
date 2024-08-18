@@ -25,7 +25,7 @@ root@09dc51bd8a82:/app/access-test# ./access-test.sh 192.168.1.17 Projects/HW1 -
 [access-test]: copy_file     : result: OK                   omniverse://192.168.1.17/Projects/HW1/nat-file-01.usd 
 [access-test]: Connection status to omniverse://192.168.1.17 is ConnectionStatus.SIGNED_OUT
 ```
-If one wants to upload a bigger file (to debug some issues with very large files), use the ```dd``` command to create a file in the usd-files directory. In the following example a 4GB file was created. Then the access-test program was used to move all files in the usd-files directory
+If one wants to upload a bigger file (to debug some issues with very large files), use the ```dd``` command to create a file in the ```usd-files``` directory. In the following example a 4GB file was created. Then the access-test program was used to move all files in the ```usd-files``` directory
 ```
 root@09dc51bd8a82:/app/access-test# dd if=/dev/urandom of=./usd-files/nat-file-02.usd  bs=4G count=1 iflag=fullblock
 root@09dc51bd8a82:/app/access-test# ./access-test.sh 192.168.1.17 Projects/HW1 -u omniverse -p 123456
@@ -39,7 +39,7 @@ access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 [access-test]: Connection status to omniverse://192.168.1.17 is ConnectionStatus.SIGNED_OUT
 ```
 
-One can use the -l option to output versbose logs. These can help identify issues with connectivity.
+One can use the ```-l``` option to output versbose logs. These can help identify issues with connectivity.
 ```
 root@09dc51bd8a82:/app/access-test# ./access-test.sh 192.168.1.17 Projects/HW1 -u omniverse -p 123456 -l
 
