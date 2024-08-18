@@ -49,9 +49,7 @@ access-test]: Omni Client initialized2.47.1-hotfix.5338+tc.ff2e947b
 ```
 ---
 **NOTE**
-
 It works with almost all markdown flavours (the below blank line matters).
-
 ---
 
 
